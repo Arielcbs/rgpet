@@ -1,0 +1,12 @@
+CREATE TABLE ownerdata(
+id CHAR(36) PRIMARY KEY NOT NULL,
+first_name VARCHAR(20),
+last_name VARCHAR(30),
+phone VARCHAR(15),
+birth_date DATE,
+city VARCHAR(30),
+address VARCHAR(80),
+address_num VARCHAR(10),
+postal_code VARCHAR(20),
+prof_pic VARCHAR(200)
+);

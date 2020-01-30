@@ -1,0 +1,21 @@
+body, html{
+    height: 100vh;
+}
+
+.landing {
+    display: flex;
+    position: absolute;
+    heigth: 30vh;
+},
+
+.landingText {
+    
+},
+
+.landingPicture {
+    
+    
+    height: 800px;
+    width: 800px;
+    
+}
