@@ -6,17 +6,13 @@
     "@material-ui/core": "^4.2.0",
     "@material-ui/icons": "^4.2.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-dom": "^16.8.6"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "start": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "preview": "vite preview"
   },
   "browserslist": {
     "production": [
@@ -29,5 +25,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "vite": "^6.4.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "vitest": "^4.1.11",
+    "jsdom": "^26.1.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
